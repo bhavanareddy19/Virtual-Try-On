@@ -1,0 +1,22 @@
+data_root: ./data
+image_size: 256
+batch_size: 4
+num_workers: 0
+device: cuda
+
+models:
+  prgan:
+    lr: 0.0002
+    epochs: 20
+  cagan:
+    lr: 0.0002
+    epochs: 20
+  crn:
+    lr: 0.0001
+    epochs: 20
+  viton:
+    lr_coarse: 0.0002
+    lr_refine: 0.0001
+    epochs: 20
+
+save_root: ./checkpoints

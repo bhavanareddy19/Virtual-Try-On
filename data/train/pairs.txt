@@ -1,0 +1,4 @@
+person_0000.jpg garment_0000.jpg
+person_0001.jpg garment_0001.jpg
+person_0002.jpg garment_0002.jpg
+person_0003.jpg garment_0003.jpg
